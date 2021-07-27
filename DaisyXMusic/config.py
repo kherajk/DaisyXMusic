@@ -24,23 +24,20 @@ if os.path.exists("local.env"):
     load_dotenv("local.env")
 
 que = {}
-SESSION_NAME = getenv("SESSION_NAME", "session")
-BOT_TOKEN = getenv("BOT_TOKEN")
-BOT_NAME = getenv("BOT_NAME")
-UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "DaisyXupdates")
-BG_IMAGE = getenv("BG_IMAGE", "https://telegra.ph/file/dcfdf612e499eef0e0b1f.png")
+SESSION_NAME = AQDD8y_WWV9Oe0Ejg8ueBNAimJ1IGlRtEyr6h5djXSJOZDUgtK8MVTF8wlN_OPhcqqMZBZX137M8uHgE1CpXnZHBm6QqgzCm876lle2WEPstI30WpkXHgBBti-Ld5dik1pITpfcr8apuoFi4L6D6p48PWckJ8xRho3H22mgkLWNqMmqJjHYjPwUoPsRPXeDTwMc6znG13nGyConUjr92NPF-3h-l4WgiRUf-e9KcnRckVLyAzXYc2E0eBltKuE6czjjWffnQlFnLcxl-4yyUhEgShqiNmY3JfDBij4H0Wxpnas3E_5t6Vp6K1MGycASKism1ZGSqyJHloQxYGAtJc2jpZCyOZAA
+BOT_TOKEN = 1839953539:AAFb5moZlOstaJybTfJdWunBO9oumuo01-A
+BOT_NAME = Music player♪
+UPDATES_CHANNEL = political_science_quiz_box
+ BG_IMAGE = https://telegra.ph/file/703de29f68ff47534aa2d.jpg
 admins = {}
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
-BOT_USERNAME = getenv("BOT_USERNAME")
-ASSISTANT_NAME = getenv("ASSISTANT_NAME", "DaisyXhelper")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "DaisySupport_Official")
-PROJECT_NAME = getenv("PROJECT_NAME", "DaisyXMusic v4")
-SOURCE_CODE = getenv("SOURCE_CODE", "github.com/TeamOfDaisyX/DaisyXMusic")
-DURATION_LIMIT = int(getenv("DURATION_LIMIT", "7"))
-ARQ_API_KEY = getenv("ARQ_API_KEY", None)
+API_ID = 4606568
+API_HASH = 392318053de7c005774396cd4b4b033c
+ASSISTANT_NAME = @K_7_Samantha
+SUPPORT_GROUP = Rajasthan_study_quiz_group 
+PROJECT_NAME = DaisyXMusic 
+DURATION_LIMIT = int(getenv("DURATION_LIMIT", "7")
+ARQ_API_KEY = CIJWMD-QSCTLS-WZGGGV-HHYQTP-ARQ
 PMPERMIT = getenv("PMPERMIT", None)
 LOG_GRP = getenv("LOG_GRP", None)
-COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ !").split())
-
-SUDO_USERS = list(map(int, getenv("SUDO_USERS").split()))
+COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ !").split()) 
+SUDO_USERS = 1680641636
